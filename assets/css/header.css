@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header .photo{
+    width: 215px;
+    height: 215px;
+    border-radius: 50% ;
+}
+
+.header .title{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+}
+
+.information p::before{
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('/assets/img/icons/call.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.25rem;
+}
