@@ -2,8 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 
 }
+
+.header::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.25rem;
+    background-image: url(/assets/img/icons/menu.svg);
+}
+
 
 .header .photo {
     width: 215px;
@@ -16,6 +32,7 @@
     text-align: center;
 
 }
+
 /*minhas informações (dados)*/
 .information {
     display: flex;
@@ -57,4 +74,29 @@
 
 .information .location::before {
     background-image: url('/assets/img/icons/location.svg');
+}
+
+/*Responsividade para desktop*/
+@media only screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo information";
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+    }
+
+    .header .information {
+        grid-area: information;
+    }
+
 }
