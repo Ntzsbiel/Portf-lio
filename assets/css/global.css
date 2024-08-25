@@ -32,6 +32,37 @@ body {
 .main {
     margin: .5rem;
     padding: .5rem;
-    border: 1px solid #fff700;
+    border: 1px solid #6e7474;
     border-radius: 1rem;
+}
+
+/* ---------ESTILIZAÇÃO DO BACKGROUND BOTTOM E TOP----------*/
+.main::before{
+    content: '';
+    background-image: url('/assets/img/background-topbot.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+
+}
+
+.main::after{
+    content: '';
+    background-image: url('/assets/img/background-topbot.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    transform: rotate(180deg);
 }

@@ -5,39 +5,56 @@
 
 }
 
-.header .photo{
+.header .photo {
     width: 215px;
     height: 215px;
-    border-radius: 50% ;
+    border-radius: 50%;
 }
 
-.header .title{
+.header .title {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    
-}
 
-.information{
+}
+/*minhas informações (dados)*/
+.information {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
 }
 
-.information p{
+.information p {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: .5rem;
 }
 
-.information p::before{
+/*-----AJUSTES DOS ICONES DO CABEÇALHO------*/
+.information p::before {
     content: ' ';
     display: inline-block;
-    width: 20px;
+    width: 25px;
     height: 20px;
-    background-image: url('/assets/img/icons/call.svg');
     background-repeat: no-repeat;
     background-size: contain;
     font-size: 1.25rem;
+}
+
+/*icones do cabeçalho*/
+.information .call::before {
+    background-image: url('/assets/img/icons/call.svg');
+}
+
+.information .email::before {
+    background-image: url('/assets/img/icons/email.svg');
+}
+
+.information .job::before {
+    background-image: url('/assets/img/icons/job.svg');
+}
+
+.information .location::before {
+    background-image: url('/assets/img/icons/location.svg');
 }
