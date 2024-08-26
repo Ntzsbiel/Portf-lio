@@ -1,4 +1,4 @@
-
+/*portfólio de forma geral*/
 .portfolio{
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     padding: 0;
     list-style: none;
 }
-
+/*Linhas das listas no portfolio*/
 .portfolio li{
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
     font-weight: 600;
     margin-bottom: .5rem;
 }
-
+/*Icones ao lado do titulo*/
 .portfolio li .title::before{
     content: "";
     display: inline-block;
@@ -34,7 +34,7 @@
     background-image: url('/assets/img/icons/github.svg');
     margin-right: .5rem;
 }
-
+/*estilização de links*/
 .portfolio li a{
     color: #6e7474;
     text-decoration: none;

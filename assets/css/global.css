@@ -3,7 +3,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-
+/*Corpo geral do conteudo*/
 body {
     background-color: #000;
     color: #FFF;
@@ -28,7 +28,7 @@ body {
     font-style: normal;
 }
 
-/* Estilo Geral */
+/* Estilização da borda em volta do body */
 .main {
     margin: .5rem;
     padding: .5rem;
@@ -37,6 +37,7 @@ body {
 }
 
 /* ---------ESTILIZAÇÃO DO BACKGROUND BOTTOM E TOP----------*/
+/*Em cima*/
 .main::before{
     content: '';
     background-image: url('/assets/img/background-topbot.svg');
@@ -51,7 +52,7 @@ body {
     z-index: -1;
 
 }
-
+/*Em baixo*/
 .main::after{
     content: '';
     background-image: url('/assets/img/background-topbot.svg');

@@ -1,3 +1,4 @@
+/*AREA DE ESTILIZAÇÃO DO CONTEÚDO IDIOMAS*/
 .languages {
     display: flex;
     flex-direction: row;
@@ -18,6 +19,7 @@
     font-size: 1.25rem;
 }
 
+/*Icone do idioma */
 .languages li::before {
     content: "";
     display: inline-block;
