@@ -26,30 +26,112 @@
         rel="stylesheet">
 
     <!---------FOLHA DE ESTILO CSS------------->
-    <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
 
 </head>
 
 <body>
-    <div class="main">
+    <main class="main">
         <!------------------CABEÇALHO DO PORTFÓLIO--------------->
         <header class="header">
 
             <img src="assets/img/my-photo.jpg" alt="Foto do perfil" class="photo">
 
-            <h1 class="title">Olá, eu sou o <br> Gabriel Silva</h1>
+            <h1 class="title">Olá, eu sou <br> Gabriel Silva</h1>
 
             <div class="information">
                 <p class="job">Desenvolvedor Fullstack</p>
                 <p class="location">Rio de Janeiro - RJ</p>
-                <p class="call">(21) 97905-0236</p>
-                <p class="email">gabrielsilva.ilha186@gmail.com</p>
+                <p class="linkedin">
+                    <a href="https://www.linkedin.com/in/ntzsbiel/" target="_blank">Ntzsbiel</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:gabrielsilva.ilha186@gmail.com">gabrielsilva.ilha186@gmail.com</a>
+                </p>
             </div>
 
         </header>
 
-    </div>
+        <!-------------CONTEÚDOS DO PORTFOLIO------------>
+        <!--Seção dos projetos-->
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Projetos
+            </button>
+
+            <div class="content">
+
+                <ul class="portfolio">
+                    <li>
+
+                        <span class="title">
+                            Pokedex utilizando a PokeApi
+                        </span>
+
+                        <a href="https://github.com/Ntzsbiel/js-developer-pokedex"
+                            target="_blank">https://github.com/Ntzsbiel/js-developer-pokedex</a>
+
+                    </li>
+                    <li>
+
+                        <span class="title">
+                            Previsão de Estoque Inteligente
+                        </span>
+
+                        <a href="https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque"
+                            target="_blank">https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque</a>
+
+                    </li>
+                    <li>
+
+                        <span class="title">
+                            Criação do Meu Portfólio
+                        </span>
+
+                        <a href="https://github.com/Ntzsbiel/Portfolio"
+                            target="_blank">https://github.com/Ntzsbiel/Portfolio</a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        <!--Area de idiomas-->
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Meus Idiomas
+            </button>
+
+            <div class="content">
+
+                <ul class="languages">
+                    <h4>
+                        <li>Inglês (Básico)</li>
+                    </h4>
+
+                    <h4>
+                        <li>Espanhol (Básico)</li>
+                    </h4>
+
+
+                </ul>
+
+            </div>
+        </section>
+
+    </main>
+    <!------------ARQUIVOS EM JAVASCRIPT-------------->
+
+    <script src="/assets/js/acordeon.js"></script>
+
 </body>
 
 </html>

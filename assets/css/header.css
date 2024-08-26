@@ -58,10 +58,19 @@
     background-size: contain;
     font-size: 1.25rem;
 }
+/*--------LINKs DO INFORMATION-----*/
+.information a{
+    color: #fff;
+    text-decoration: none;
 
+}
+
+.information a:hover{
+    text-decoration: underline;
+}
 /*icones do cabeçalho*/
-.information .call::before {
-    background-image: url('/assets/img/icons/call.svg');
+.information .linkedin::before {
+    background-image: url('/assets/img/icons/linkedin.svg');
 }
 
 .information .email::before {
