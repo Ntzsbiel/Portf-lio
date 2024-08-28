@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="/assets/css/languages.css">
     <link rel="stylesheet" href="/assets/css/portfolio.css">
     <link rel="stylesheet" href="/assets/css/aboutme.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
 
 </head>
 
@@ -70,27 +71,38 @@
                 <ul class="portfolio">
 
                     <li>
-                        <span class="title">
-                            Pokedex utilizando a PokeApi
-                        </span>
-                        <a href="https://github.com/Ntzsbiel/js-developer-pokedex"
-                            target="_blank">https://github.com/Ntzsbiel/js-developer-pokedex</a>
+
+                        <a href="https://github.com/Ntzsbiel/js-developer-pokedex" target="_blank">
+                            <span class="title">
+                                Pokedex utilizando a PokeApi
+                            </span>
+                        </a>
+                        <p> O projeto permite visualizar uma lista de Pokémon, carregar mais Pokémon ao clicar em um
+                            botão e exibir detalhes dos Pokémon, incluindo suas estatísticas e tipos.</p>
+
                     </li>
 
                     <li>
-                        <span class="title">
-                            Previsão de Estoque Inteligente
-                        </span>
-                        <a href="https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque"
-                            target="_blank">https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque</a>
+                        <a href="https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque" target="_blank">
+                            <span class="title">
+                                Previsão de Estoque Inteligente
+                            </span>
+                        </a>
+
+                        <p>O foco principal é prever preços futuros dos itens, considerando intervalos de confiança para
+                            fornecer uma visão abrangente das possíveis variações. O modelo desenvolvido ajuda na tomada
+                            de decisões estratégicas, otimizando a gestão de estoque e precificação.</p>
                     </li>
 
                     <li>
-                        <span class="title">
-                            Criação do Meu Portfólio
-                        </span>
-                        <a href="https://github.com/Ntzsbiel/Portfolio"
-                            target="_blank">https://github.com/Ntzsbiel/Portfolio</a>
+
+                        <a href="https://github.com/Ntzsbiel/Portfolio" target="_blank">
+                            <span class="title">
+                                Criação do Meu Portfólio
+                            </span></a>
+                        <P>Aqui você encontra uma vitrine dos meus projetos, habilidades e um pouquinho sobre quem sou.
+                            Mas calma, isso é só o começo! Conforme eu for aprendendo novas tecnologias, vou adicionar
+                            mais coisas legais por aqui.</P>
                     </li>
 
                 </ul>
@@ -102,25 +114,56 @@
         <section class="acordeon">
 
             <button class="trigger" type="button">
-                Sobre mim
+                Habilidades
             </button>
 
             <div class="content">
+                <div class="skills">
+                    <!--seção de hardskill-->
+                    <section class="tools">
+                        <h3>Hardskill</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/html.svg" alt="html5" title="html5">
+                            </li>
 
-                <ul class="aboutme">
-                    <h3>Formações</h3>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut, odio, blanditiis
-                        laboriosam praesentium deleniti ratione omnis labore molestias, aliquid numquam facilis dolore
-                    </li>
+                            <li>
+                                <img src="/assets/img/icons/css.svg" alt="css" title="css">
+                            </li>
 
-                    <h3>Motivações</h3>
-                    <li>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi quos assumenda, magni
-                        impedit maxime nihil praesentium officiis ea vel laborum, dolores odit enim, cum minima
-                    </li>
+                            <li>
+                                <img src="/assets/img/icons/javascript.svg" alt="javascript" title="javascript">
+                            </li>
 
-                </ul>
-                
+                            <li>
+                                <img src="/assets/img/icons/chatgpt.svg" alt="chat" title="chatgpt">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/git.svg" alt="git" title="git">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/github.svg" alt="github" title="github">
+                            </li>
+
+
+                        </ul>
+                    </section>
+
+                    <!--seção softskills-->
+                    <section class="softskill">
+
+                        <h3>Softskill</h3>
+                        <ul>
+
+                            <li>Liderança</li>
+                            <li>Boa Comunicação</li>
+                            <li>Rápido Aprendizado</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Proatividade</li>
+
+                        </ul>
+                    </section>
+                </div>
             </div>
         </section>
 
@@ -160,14 +203,20 @@
 
                 <ul class="aboutme">
                     <h3>Formações</h3>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut, odio, blanditiis
-                        laboriosam praesentium deleniti ratione omnis labore molestias, aliquid numquam facilis dolore
+                    <li>
+                        Tenho 23 anos e sou estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o
+                        segundo semestre.
+                        Desde fevereiro de 2024, venho me dedicando ao estudo da programação, participando de
+                        bootcamps de engenharia de prompts e projetos como o programa de Embaixadores Universitários da
+                        DIO.
                     </li>
 
                     <h3>Motivações</h3>
                     <li>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi quos assumenda, magni
-                        impedit maxime nihil praesentium officiis ea vel laborum, dolores odit enim, cum minima
+                        Meu foco atual é me aprofundar em JavaScript, com o objetivo de me tornar um desenvolvedor
+                        Fullstack.
+                        Acredito no poder do aprendizado contínuo e tenho como meta não apenas dominar as tecnologias,
+                        mas também compartilhar o conhecimento adquirido com a comunidade.
                     </li>
 
                 </ul>
