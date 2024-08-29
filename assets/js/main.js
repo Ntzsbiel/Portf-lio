@@ -36,7 +36,7 @@ function importHardSkills(profileData) {
 
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => ` 
          <li>
-            <img src="${skill.logo}" alt="skill.name" title="skill.name">
+            <img src="${skill.logo}" alt="${skill.name}" title="${skill.name}">
          </li>`)
         .join('')
 
