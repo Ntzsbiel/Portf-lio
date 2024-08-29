@@ -1,10 +1,10 @@
 {
-    "name": "Renan J Paula",
-    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-    "job": "Tech Lead no S3 Bank",
-    "location": "São Paulo - SP",
-    "phone": "(16) 98159-7656",
-    "email": "renanjohannsen@gmail.com",
+    "name": "Gabriel Silva",
+    "photo": "https://avatars.githubusercontent.com/u/170120598?v=4",
+    "job": "Desenvolvedor Fullstack",
+    "location": "Rio de Janeiro - RJ",
+    "linkedin": "Ntzsbiel",
+    "email": "gabrielsilva.ilha186@gmail.com",
     "skills": {
       "hardSkills": [
         {
@@ -33,18 +33,16 @@
         }
       ],
       "softSkills": [
-        "Empatia",
         "Liderança",
         "Trabalho em equipe",
-        "Flexibilidade",
+        "Rápido Aprendizado",
         "Organização"
       ]
     },
     "languages": [
       "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (intermediário)",
-      "Italiano (iniciante)"
+      "Inglês (Básico)",
+      "Espanhol (Básico)"
     ],
     "portfolio": [
       {
