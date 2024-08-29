@@ -64,6 +64,10 @@ function importPortfolio(profileData) {
                                 ${project.name}
                             </span>
                         </a>
+                        
+                        <p>
+                        ${project.description}
+                        </p>
 
                     </li>
     ` }) .join('')

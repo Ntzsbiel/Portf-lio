@@ -49,34 +49,17 @@
     {
       "name": "Pokedex utilizando a PokeApi",
       "url": "https://github.com/Ntzsbiel/js-developer-pokedex",
-      "description":"O projeto permite visualizar uma lista de Pokémon, carregar mais Pokémon ao clicar em um botão e exibir detalhes dos Pokémon, incluindo suas estatísticas e tipos.",
-      "github": true
+      "description":"Este projeto é uma Pokedex interativa desenvolvida com HTML, CSS e JavaScript. Utiliza a API pública do Pokémon (PokeAPI) para buscar e exibir informações sobre os Pokémon."
     },
     {
       "name": "Previsão de Estoque Inteligente",
       "url": "https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque",
-      "github": true
+      "description":"O foco principal é prever preços futuros dos itens, considerando intervalos de confiança para fornecer uma visão abrangente das possíveis variações. O modelo desenvolvido ajuda na tomada de decisões estratégicas, otimizando a gestão de estoque e precificação." 
     },
     {
       "name": "Criação do Meu Portfólio",
       "url": "https://github.com/Ntzsbiel/Portfolio",
-      "github": true
-    }
-  ],
-  "professionalExperience": [
-    {
-      "name": "Pokedex utilizando a PokeApi",
-      "description": "O foco principal é prever preços futuros dos itens, considerando intervalos de confiança parafornecer uma visão abrangente das possíveis variações. O modelo desenvolvido ajuda na tomada de decisões estratégicas, otimizando a gestão de estoque e precificação."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "description":"Aqui você encontra uma vitrine dos meus projetos, habilidades e um pouquinho sobre quem sou. Mas calma, isso é só o começo! Conforme eu for aprendendo novas tecnologias, vou adicionar mais coisas legais por aqui."
     }
   ]
 }
