@@ -42,9 +42,21 @@ function importHardSkills(profileData) {
 
 }
 
+function importLanguages(profileData) {
+    const languages = document.getElementById('profile.languages')
+    languages.innerHTML = profileData.languages.map(languages => `
+
+        <h3>
+        <li>${languages}</li>
+        </h3>`
+    )
+        .join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     importProfileInfo(profileData)
     importSoftSkills(profileData)
     importHardSkills(profileData)
+    importLanguages(profileData)
 })()
