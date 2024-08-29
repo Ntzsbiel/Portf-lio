@@ -57,11 +57,15 @@ function importPortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(project => {
         return`
-        <li>
-            <h3 ${project.name}</h3>
-            <a href="${project.url}" target_blank"> ${project.url}</a>
-            
-        </li>
+                           <li>
+
+                        <a href="${project.url}" target="_blank">
+                            <span class="title">
+                                ${project.name}
+                            </span>
+                        </a>
+
+                    </li>
     ` }) .join('')
 }
 

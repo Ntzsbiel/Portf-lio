@@ -49,6 +49,7 @@
     {
       "name": "Pokedex utilizando a PokeApi",
       "url": "https://github.com/Ntzsbiel/js-developer-pokedex",
+      "description":"O projeto permite visualizar uma lista de Pokémon, carregar mais Pokémon ao clicar em um botão e exibir detalhes dos Pokémon, incluindo suas estatísticas e tipos.",
       "github": true
     },
     {
