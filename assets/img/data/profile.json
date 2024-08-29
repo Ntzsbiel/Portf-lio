@@ -48,17 +48,17 @@
   "portfolio": [
     {
       "name": "Pokedex utilizando a PokeApi",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://github.com/Ntzsbiel/js-developer-pokedex",
       "github": true
     },
     {
       "name": "Previsão de Estoque Inteligente",
-      "url": "https://github.com/Ntzsbiel/Portfolio",
+      "url": "https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque",
       "github": true
     },
     {
       "name": "Criação do Meu Portfólio",
-      "url": "https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque",
+      "url": "https://github.com/Ntzsbiel/Portfolio",
       "github": true
     }
   ],

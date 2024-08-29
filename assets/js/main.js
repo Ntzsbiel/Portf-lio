@@ -53,10 +53,23 @@ function importLanguages(profileData) {
         .join('')
 }
 
+function importPortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio')
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        return`
+        <li>
+            <h3 ${project.name}</h3>
+            <a href="${project.url}" target_blank"> ${project.url}</a>
+            
+        </li>
+    ` }) .join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     importProfileInfo(profileData)
     importSoftSkills(profileData)
     importHardSkills(profileData)
     importLanguages(profileData)
+    importPortfolio(profileData)
 })()
