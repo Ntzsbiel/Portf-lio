@@ -7,9 +7,8 @@
   "email": "gabrielsilva.ilha186@gmail.com",
   "skills": {
     "hardSkills": [
-  
       {
-            "name": "Html",
+        "name": "Html",
         "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/html.svg"
       },
       {
@@ -32,9 +31,6 @@
         "name": "github",
         "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/github.svg"
       }
-      
-
-
     ],
     "softSkills": [
       "Liderança",
@@ -42,7 +38,6 @@
       "Rápido Aprendizado",
       "Rápido Aprendizado",
       "Boa Comunição"
-
     ]
   },
   "languages": [
@@ -50,35 +45,37 @@
     "Inglês (Básico)",
     "Espanhol (Básico)"
   ],
-
-
-"portfolio": [
-  {
-    "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-    "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-    "github": true
-  },
-  {
-    "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-    "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-    "github": true
-  }
-],
-"professionalExperience": [
-  {
-    "name": "Arquiteto de software / S3 BANK",
-    "period": "2022 - até o momento",
-    "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-  },
-  {
-    "name": "Software Engineering Lead / DIO",
-    "period": "2021 - 2022",
-    "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-  },
-  {
-    "name": "CEO / Brain Machine",
-    "period": "2016 - 2021",
-    "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
-  }
-]
+  "portfolio": [
+    {
+      "name": "Pokedex utilizando a PokeApi",
+      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Previsão de Estoque Inteligente",
+      "url": "https://github.com/Ntzsbiel/Portfolio",
+      "github": true
+    },
+    {
+      "name": "Criação do Meu Portfólio",
+      "url": "https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Pokedex utilizando a PokeApi",
+      "description": "O foco principal é prever preços futuros dos itens, considerando intervalos de confiança parafornecer uma visão abrangente das possíveis variações. O modelo desenvolvido ajuda na tomada de decisões estratégicas, otimizando a gestão de estoque e precificação."
+    },
+    {
+      "name": "Software Engineering Lead / DIO",
+      "period": "2021 - 2022",
+      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+    },
+    {
+      "name": "CEO / Brain Machine",
+      "period": "2016 - 2021",
+      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+    }
+  ]
 }
