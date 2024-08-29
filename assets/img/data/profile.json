@@ -7,37 +7,41 @@
   "email": "gabrielsilva.ilha186@gmail.com",
   "skills": {
     "hardSkills": [
+    
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+            "name": "Html",
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/html.svg"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/css.svg"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "Javascript",
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/javascript.svg"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "ChatGpt",
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/chatgpt.svg"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "git",
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/git.svg"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "github",
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/s/github.svg"
       }
+      
+
+
     ],
     "softSkills": [
       "Liderança",
       "Trabalho em equipe",
-      "Rápido Aprendizado",
-      "Organização",
+      "Rápido Aprendizado"
       "Boa Comunição"
+
     ]
   },
   "languages": [
@@ -45,33 +49,35 @@
     "Inglês (Básico)",
     "Espanhol (Básico)"
   ],
-  "portfolio": [
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
-    }
-  ],
-  "professionalExperience": [
-    {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
-    }
-  ]
+
+
+"portfolio": [
+  {
+    "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+    "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+    "github": true
+  },
+  {
+    "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+    "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+    "github": true
+  }
+],
+"professionalExperience": [
+  {
+    "name": "Arquiteto de software / S3 BANK",
+    "period": "2022 - até o momento",
+    "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+  },
+  {
+    "name": "Software Engineering Lead / DIO",
+    "period": "2021 - 2022",
+    "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+  },
+  {
+    "name": "CEO / Brain Machine",
+    "period": "2016 - 2021",
+    "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+  }
+]
 }
