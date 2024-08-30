@@ -97,4 +97,5 @@ function importAboutme(profileData) {
     importHardSkills(profileData)
     importLanguages(profileData)
     importPortfolio(profileData)
+    importAboutme(profileData)
 })()
