@@ -45,7 +45,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/arrowtop.svg');
+    background-image: url('../img/icons/arrowtop.svg');
     transition: .25s;
 }
 /*icone de seta após o acordeon virar "open"*/
