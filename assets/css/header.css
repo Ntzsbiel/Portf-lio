@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     font-size: 1.25rem;
-    background-image: url(/assets/img/icons/menu.svg);
+    background-image: url(assets/img/icons/menu.svg);
 }
 
 /*Foto e tiulo*/
@@ -72,19 +72,19 @@
 }
 /*icones do cabeçalho*/
 .information .linkedin::before {
-    background-image: url('/assets/img/icons/linkedin.svg');
+    background-image: url('assets/img/icons/linkedin.svg');
 }
 
 .information .email::before {
-    background-image: url('/assets/img/icons/email.svg');
+    background-image: url('assets/img/icons/email.svg');
 }
 
 .information .job::before {
-    background-image: url('/assets/img/icons/job.svg');
+    background-image: url('assets/img/icons/job.svg');
 }
 
 .information .location::before {
-    background-image: url('/assets/img/icons/location.svg');
+    background-image: url('assets/img/icons/location.svg');
 }
 
 /*Responsividade para desktop*/
