@@ -73,6 +73,23 @@ function importPortfolio(profileData) {
     ` }) .join('')
 }
 
+function importAboutme(profileData) {
+    const aboutme = document.getElementById('profile.aboutme')
+    aboutme.innerHTML = profileData.aboutme.map(sobre => {
+        return`
+            <h3>Trajetórica Acadêmica</h3>
+                    <li>
+                       ${sobre.journey}
+                    </li>
+
+            <h3>Aspirações</h3>
+
+                    <li>
+                    ${sobre.aspirations}
+                    </li>
+
+    ` }) .join('')
+}
 (async () => {
     const profileData = await fetchProfileData()
     importProfileInfo(profileData)
