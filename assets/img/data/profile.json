@@ -34,11 +34,11 @@
       },
       {
           "name": "dotnet",
-          "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/dotnet.svg"
+          "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/master/assets/img/icons/dotnet.svg"
       },
       {
         "name": "csharp",
-        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/274f514c312ce20f3329e4e01facad57a4d0dee1/assets/img/icons/csharp.svg"
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/master/assets/img/icons/csharp.svg"
     }
         
     ],
