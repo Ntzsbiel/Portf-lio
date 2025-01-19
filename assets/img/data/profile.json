@@ -54,9 +54,9 @@
       "description":"Este projeto é uma Pokedex interativa desenvolvida com HTML, CSS e JavaScript. Utiliza a API pública do Pokémon (PokeAPI) para buscar e exibir informações sobre os Pokémon."
     },
     {
-      "name": "Previsão de Estoque Inteligente",
-      "url": "https://github.com/Ntzsbiel/lab-aws-sagemaker-canvas-estoque",
-      "description":"O foco principal é prever preços futuros dos itens, considerando intervalos de confiança para fornecer uma visão abrangente das possíveis variações. O modelo desenvolvido ajuda na tomada de decisões estratégicas, otimizando a gestão de estoque e precificação." 
+      "name": "Sistema de hospedagem em hotel",
+      "url": "https://github.com/Ntzsbiel/sistema-hospedagem",
+      "description":"Projeto desenvolvido com C#, utilizando POO para gerenciar reservas de hotel. Inclui funcionalidades como cadastro de hóspedes, definição de suítes, cálculo de diárias com desconto automático para estadias longas e validações de capacidade. O sistema é modular, permitindo fácil expansão e integrações futuras." 
     },
     {
       "name": "Criação do Meu Portfólio",
