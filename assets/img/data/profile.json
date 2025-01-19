@@ -35,7 +35,11 @@
       {
         "name": "dotnet",
         "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/master/assets/img/icons/dotnet.svg"
-      }     
+      },
+      {
+        "name": "csharp",
+        "logo": "https://raw.githubusercontent.com/Ntzsbiel/Portfolio/master/assets/img/icons/csharp.svg"
+      }  
     ],
     "softSkills": [
       "Liderança",
