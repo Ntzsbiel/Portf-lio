@@ -3,6 +3,8 @@
 ## 📝 Sobre o Projeto
 Esse é o repositório da primeira versão (v1.0.0) do meu portfólio pessoal. Aqui você encontra uma vitrine dos meus projetos, habilidades e um pouquinho sobre quem sou. Mas calma, isso é só o começo! Conforme eu for aprendendo novas tecnologias, vou adicionar mais coisas legais por aqui.
 
+[Clique aqui para visualizar o meu portfólio](https://seu-portifolio.github.io)
+
 ## 🛠 Tecnologias Usadas
 
 - **Git**: Para gerenciar e versionar o código.
